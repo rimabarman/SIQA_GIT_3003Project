@@ -7,10 +7,6 @@ runtimes:
     type: flow
     stepId: /0
     reference: fld_156851932_stage00.projects.fl7ed262629da6495d982d689a9a20450f.WmPackageServiceProvider.GB_1:readGlobalvariable
-  - name: fld_156851932_stage00.projects.fl7ed262629da6495d982d689a9a20450f.integrations:conntest
-    type: flow
-    stepId: /0
-    reference: fld_156851932_stage00.projects.fl7ed262629da6495d982d689a9a20450f.WmPackageServiceProvider.GB_1:readGlobalvariable
 - runtimeAlias: SIQA_ERT_3003
   assets:
   - name: fld_156851932_stage00.projects.fl7ed262629da6495d982d689a9a20450f.integrations:testGV
@@ -20,6 +16,10 @@ runtimes:
   - name: fld_156851932_stage00.projects.fl7ed262629da6495d982d689a9a20450f.integrations:testGV
     type: flow
     stepId: /2
+    reference: fld_156851932_stage00.projects.fl7ed262629da6495d982d689a9a20450f.WmPackageServiceProvider.GB_1:readGlobalvariable
+  - name: fld_156851932_stage00.projects.fl7ed262629da6495d982d689a9a20450f.integrations:conntest
+    type: flow
+    stepId: /0
     reference: fld_156851932_stage00.projects.fl7ed262629da6495d982d689a9a20450f.WmPackageServiceProvider.GB_1:readGlobalvariable
 - runtimeAlias: SIQAMCSPStageTest3009
   assets:

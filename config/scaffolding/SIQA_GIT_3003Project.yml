@@ -20,6 +20,10 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.826
+- serviceName: project.siqa_git_3003.integrations:Test_Scaffolding
+  packages:
+  - name: SIQA_GIT_3003Project
+    version: "1.0"
 - serviceName: project.siqa_git_3003.integrations:deepclonetest
   packages:
   - name: SIQA_GIT_3003Project

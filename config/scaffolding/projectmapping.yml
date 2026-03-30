@@ -1,0 +1,19 @@
+version: "1.0"
+projectName: SIQA_GIT_3003Project
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: fld_156851932_stage00.projects.fl7ed262629da6495d982d689a9a20450f.integrations:testGV
+    type: flow
+    stepId: /0
+    reference: fld_156851932_stage00.projects.fl7ed262629da6495d982d689a9a20450f.WmPackageServiceProvider.GB_1:readGlobalvariable
+- runtimeAlias: SIQA_ERT_3003
+  assets:
+  - name: fld_156851932_stage00.projects.fl7ed262629da6495d982d689a9a20450f.integrations:testGV
+    type: flow
+    stepId: /1
+    reference: fld_156851932_stage00.projects.fl7ed262629da6495d982d689a9a20450f.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
+  - name: fld_156851932_stage00.projects.fl7ed262629da6495d982d689a9a20450f.integrations:testGV
+    type: flow
+    stepId: /2
+    reference: fld_156851932_stage00.projects.fl7ed262629da6495d982d689a9a20450f.WmPackageServiceProvider.GB_1:readGlobalvariable
